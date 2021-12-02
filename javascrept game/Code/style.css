@@ -1,0 +1,48 @@
+*{
+  
+
+}
+body{
+   background-image:url(imageback.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.mama{
+   
+   text-align: center;
+   padding: 15px;
+}
+#Play{
+   color: rgb(99, 99, 99);
+   border: solid 1.5px black;
+   border-radius: 4px;
+}
+
+#Play:hover{
+   color: #999;  opacity: 20%;}
+
+:placeholder{
+   color:rgb(99, 99, 99); 
+}
+
+input{border: solid 1.5px #000;
+   border-radius: 4px;}
+
+h1{ font-size: 55px;
+padding: 10px;}
+
+
+h2{ font-size: 40px;
+padding: 10px;}
+
+
+h3{ font-size: 30px;
+padding: 10px;}
+#par{font-size: 25px;}
+
+#message{
+   font-size: 20px;
+   
+}
+
