@@ -1,6 +1,6 @@
 var randomNum = Math.floor(Math.random() *101 );
 var cp=1;
-var ce = 3;
+var ce = 10;
 function guessNumber() {   
     
     //  console.log(randomNum);
@@ -22,7 +22,7 @@ function guessNumber() {
   cp++;
   ce--;
     cpElement.innerHTML = "Number of attempts remaining: " + ce;
-    if(cp <= 3 ){
+    if(cp <= 10 ){
            if (guess < randomNum) {
         message.innerHTML = "Your guess is too low";
       } else if (guess > randomNum){

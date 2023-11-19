@@ -5,13 +5,23 @@
 
 }
 body{
-   background-image:url(../img/background.jpg);
+   background-image:url(../img/background.png);
    background-repeat: no-repeat;
    background-size: cover;
+
+   
  
 }
-.title{
+.container{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 15px;
+   background: #D6D6E7;
+   /* background: radial-gradient(circle, #504bea 0%, #00ff88 100% ); */
    text-align: center;
+   color: #121212;
    padding: 15px;
 }
 .PlayAgain{
@@ -29,12 +39,12 @@ body{
    color: rgb(99, 99, 99);
    border: solid 1.5px black;
    border-radius: 4px;
-   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+   box-shadow: #2d234266 0 2px 4px,#2d23424d 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
    transition: box-shadow .15s,transform .15s;
 }
 
 #Play:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-shadow: #2d234266 0 4px 8px, #2d23424d 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
@@ -43,40 +53,19 @@ body{
   transform: translateY(2px);
 }
 
-:placeholder{
-   color:rgb(99, 99, 99); 
-}
 
 input{
    height: 25px;
    border: solid 1.5px #000;
    border-radius: 4px;}
 
-h1{ 
-   font-size: 40px;
+h1, h2, h3{ 
 padding: 10px;
-}
-
-
-h2{
-    font-size: 30px;
-padding: 10px;
-}
-
-
-h3{
-    font-size: 20px;
-padding: 10px;
-}
-#par{
-   font-size: 15px;
 }
 
 #message{
    font-size: 14px;
-   /* color: red; */
    text-shadow: #e4e4e4 1px 0 10px;
-   /* background: #000; */
 
 }
 
