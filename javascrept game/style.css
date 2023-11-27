@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Rubik&display=swap');
+*{ 
+   font-family: 'Playpen Sans', cursive;
+   font-family: 'Rubik', sans-serif;
+
+}
+body{
+   background-image:url(./img/background.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   
+ 
+}
+.container{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 15px;
+   background: #D6D6E7;
+   box-shadow: #6666a940 0px 50px 100px -20px, #9393934d 0px 40px 100px -40px, #2a94ff59 1px -4px 12px 1px inset;
+   text-align: center;
+   color: #121212;
+   padding: 15px;
+}
+.PlayAgain{
+   height: 30px;
+   width: 70px;
+   border: solid 1.5px black;
+   border-radius: 4px;
+}
+.Again{
+   display: inline-block;
+}
+#Play{
+   height: 30px;
+   width: 70px;
+   color: rgb(99, 99, 99);
+   border: solid 1.5px black;
+   border-radius: 4px;
+   box-shadow: #2d234266 0 2px 4px,#2d23424d 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+   transition: box-shadow .15s,transform .15s;
+}
+
+#Play:hover {
+  box-shadow: #2d234266 0 4px 8px, #2d23424d 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+#Play:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+input{
+   height: 25px;
+   border: solid 1.5px #000;
+   border-radius: 4px;
+   margin-bottom: 10px;
+}
+
+input:hover{
+   border: none;
+}
+
+h1, h2, h3{ 
+padding: 10px;
+}
+
+#message{
+   font-size: 14px;
+   text-shadow: #e4e4e4 1px 0 10px;
+
+}
+
